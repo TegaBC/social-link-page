@@ -60,6 +60,9 @@ body{
     font-weight: 400;
     font-size: 1em;
     font-family: 'Roboto', sans-serif;
+    max-width: 70%;
+    text-align: center;
+
 }
 
 .info-wrapper h1{
