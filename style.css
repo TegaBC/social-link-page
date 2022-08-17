@@ -11,7 +11,6 @@ body{
 .main-wrapper{
     min-height: 600px;
     min-width: 400px;
-    max-width: 550px;
     border-radius: 1em;
     background-color: rgb(49, 49, 49); 
     box-shadow: 0px 0px 19px 13px rgba(0,0,0,0.19);
@@ -21,6 +20,13 @@ body{
     justify-content: center;
     align-content: center;
 }
+
+@media only screen and (max-width: 500px) {
+    .main-wrapper {
+        min-width: 100vw;
+        min-height: 100vh;
+    }
+  }
 
 .link-button{
     min-width: 150px;
